@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url('images/bg-pattern-top.svg'),
+                      url('images/bg-pattern-bottom.svg')  ;
+    background-position: top -100px left -70px,
+                         bottom -200px right -30px;
+    background-repeat: no-repeat;
+    background-size: 48%;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 14px;
+    font-weight: 400;
+}
+span {
+    color: grey;
+}
+.wrapper {
+    text-align: center;
+}
+.container {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+}
+.top-section img {
+    border-radius: 15px 15px 0 0;
+}
+.middle-section {
+    padding: 50px 20px 30px;
+    position: relative;
+}
+.middle-section img {
+    margin: -9rem auto 1.5rem;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.bottom-section {
+    display: flex;
+    justify-content: space-around;
+    border-top: 0.7px solid rgb(216, 213, 213);
+    padding: 20px 30px;
+} 
+
+
+.attribution { 
+    font-size: 12px; 
+    text-align: center; 
+    margin-top: 40px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
